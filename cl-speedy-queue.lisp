@@ -23,7 +23,16 @@
 ;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (cl:defpackage #:cl-speedy-queue
-  (:use :cl))
+  (:use :cl)
+  (:export
+   :make-queue
+   :queue-count
+   :queue-length
+   :queue-peek
+   :queue-full-p
+   :queue-empty-p
+   :enqueue
+   :dequeue))
 (cl:in-package #:cl-speedy-queue)
 
 ;;; The functions in this file are dangerous. Good compilers will generate code that will
