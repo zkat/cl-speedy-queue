@@ -1,7 +1,8 @@
 # About
 
-cl-speedy-queue is a portable, optimized queue implementation. It was originally written by
-[Adlai Chandrasekhar](http://github.com/adlai) for use in [ChanL](http://github.com/zkat/chanl).
+cl-speedy-queue is a portable, non-consing, optimized queue implementation. It was originally
+written by [Adlai Chandrasekhar](http://github.com/adlai) for use in
+[ChanL](http://github.com/zkat/chanl).
 
 # API
 
